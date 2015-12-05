@@ -5,8 +5,22 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
 </head>
 <body>
-  <p> Space station search</p>
-
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <form class="form-inline">
+          <div class="form-group">
+            <label>Address</label>
+            <input type="text" class="form-control" id="userAddress" placeholder="100 Rockafeller Road, Piscataway, NJ" />
+          </div>
+          <button type="submit" class="btn btn-default">Search!</button>
+        </form>
+      </div>
+      <div>
+        <div class="row" id="photosRow"></div>
+      </div>
+    </div>
+  </div>
   <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/spacestationSearch.js"></script>
